@@ -32,18 +32,17 @@
                     <input type="password" id="password" name="password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
                 </fieldset>
                 
-                <div class="requirements">
-                    <ul class="requirements-left">
-                        <li>One lowercase character</li>
-                        <li>One uppercase character</li>
-                        <li>One number</li>
-                    </ul>
-                    <ul class="requirements-right">
-                        <li>One special character</li>
-                        <li>8 characters minimum</li>
-                    </ul>
+                <ul class="requirements">
                     
-                </div>
+                        <li class="requirements__item">One lowercase character</li>
+                        <li class="requirements__item">One special character</li>
+                        <li class="requirements__item">One uppercase character</li>
+                        <li class="requirements__item">One number</li>
+                        <li class="requirements__item">8 characters minimum</li>
+                
+                    
+                    
+                </ul>
 
                 <fieldset>
                     <input type="submit" value="Sign Up">
