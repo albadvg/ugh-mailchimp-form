@@ -89,15 +89,11 @@ label[for="password"] {
     cursor: pointer;
 }
 
-.show::before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 20px;
-    float: left;
-    background: url("./img/show.png") no-repeat;
-    background-size: contain;
-    margin: 4px 10px 0 0;
+.show__txt {
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
 }
 
 /*PASSWORD REQUIREMENTS*/
@@ -108,9 +104,6 @@ label[for="password"] {
     display: inline-block;
     list-style: none;
 }
-
-
-
 
 .requirements__item {
     display: inline-block;

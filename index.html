@@ -28,7 +28,10 @@
                     <input type="text" id="user" name="user" required>
                       
                     <label for="password">Password</label>
-                    <p class="show">Show</p>
+                    <div class="show">
+                        <img src="./img/show.png" class="show__img" id="eye-icon"></img>
+                        <p class="show__txt" id="show">Show</p>
+                    </div>
                     <input type="password" id="password" name="password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
                 </fieldset>
                 
@@ -59,5 +62,7 @@
             <p class="terms">By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
         </div>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
